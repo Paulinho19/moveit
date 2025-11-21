@@ -32,7 +32,24 @@ main {
     }
 
     .division-line {
+      display: flex;
+      align-items: center;
+      gap: 3px;
       padding: 10px 35px;
+
+      span {
+        font-size: 14px;
+        color: variables.$gray-bg;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+
+      .line {
+        height: 1px;
+        min-width: 190px;
+        width: 100%;
+        background-color: variables.$gray-bg;
+      }
     }
 
     button {
